@@ -22,7 +22,7 @@ type incomingWebhook struct {
 	Type      string         `json:"type"`
 	Tailnet   string         `json:"tailnet"`
 	Message   string         `json:"message"`
-	Data      map[string]any `json:"data"`
+	Data      map[string]any `json:"data"` //TODO: Verify if this is the right way to do this.
 }
 
 // https://learn.microsoft.com/en-us/outlook/actionable-messages/message-card-reference
